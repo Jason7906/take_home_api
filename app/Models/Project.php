@@ -18,5 +18,10 @@ class Project extends Model
     {
         return $this->hasMany(Transaction::class);
     }
+    // 定義與 HighestTransactionPrice 模型的一對多關係
+    public function HighestTransactionPrice()
+    {
+        return $this->hasMany(Transaction::class);
+    }
     
 }
