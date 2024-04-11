@@ -4,7 +4,7 @@
 ## Introduction
 This API provides functionality to retrieve projects with the highest prices based on certain criteria.
 ## Installation
-1. 遵照https://laravel.tw/docs/5.3/installation教學透過composer下載
+1. 遵照https://laravel.tw/docs/5.3/installation 教學透過composer下載
 2. run php artisan migrate to migrate the data base tables.
 
 ## Usage
@@ -32,7 +32,6 @@ database\migrations\2024_04_10_051051_create_transactions_table.php
 database\migrations\2024_04_11_044437_create_highest_transaction_prices_table.php  
 這些migration文件包含了專案資料表和交易資料表的建立指令，你可以透過執行php artisan migrate命令來執行這些migration，自動建立相應的資料表。  
 
-以下為ER model 
 ![alt text](image-1.png)
 
 ## Testing
@@ -45,13 +44,11 @@ Description: 測試API 驗證最高交易單價是否一致
 
 #### Method: `test_can_handle_no_projects_found`
 Description: 測試API 未找到符合的建案的情形，assert response為empty
-
+![alt text](image-3.png)
 ### Feature Test: CalculateHighestTransactionPriceTaskTest
 #### Method: `test_task_executes_successfully`
 Description: 測試task 驗證最終表的最高交易單價與期望是否一致
-
-## Conclusion
-此項API提供簡單且明確的方式，檢索所需的專案，並將最高交易單價的專案列出
+![alt text](image-2.png)
 
 ## Author
 Author: Jason Chou  

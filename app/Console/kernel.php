@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        // 在這裡添加你的 Artisan 命令類
+        
     ];
 
     /**
