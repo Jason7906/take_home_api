@@ -13,13 +13,12 @@ endpoints
 GET/projects: Retrieve projects with highest prices.
 
 ## Controller: ProjectController
-The `ProjectController` 
 
-Method: index
-Description: 根據條件，獲取價格最高的項目。  
-Request Method: GET  
-Parameters: None   
-Returns: JSON response containing project names and their highest prices.  
+- Method: index  
+- Description: 根據條件，獲取價格最高的項目  
+- Request Method: GET  
+- Parameters: None   
+- Returns: JSON response containing project names and their highest prices.  
 
 ## Task: CalculateHighestTransactionPriceTask
 此Task每天中午12點執行，找出建案類型為大樓且管理員部門為資料部的建案，並計算其最高交易單價存入。
