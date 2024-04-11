@@ -20,9 +20,13 @@ The `ProjectController`
 
 Method: index
 Description: Retrieves projects with the highest prices based on certain criteria.
+
 Request Method: GET
+
 Parameters: None
+
 Returns: JSON response containing project names and their highest prices.
+
 ## 資料表建立 Migration
 你可以在以下路徑找到資料表建立的migration文件：
 
