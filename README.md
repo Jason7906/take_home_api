@@ -23,6 +23,7 @@ Description: Retrieves projects with the highest prices based on certain criteri
 Request Method: GET
 Parameters: None
 Returns: JSON response containing project names and their highest prices.
+
 ## 資料表建立 Migration
 你可以在以下路徑找到資料表建立的migration文件：
 
@@ -32,6 +33,7 @@ database/migrations/2024_04_10_051051_create_transactions_table.php
 
 以下為ER model 
 ![alt text](image.png)
+
 ## Testing
 
 ### Feature Test: ProjectApiTest
@@ -39,6 +41,7 @@ database/migrations/2024_04_10_051051_create_transactions_table.php
 
 ### Method: `test_can_get_projects_with_highest_prices`
 Description: 測試API 從DB找出建案類型為大樓且管理員部門為資料部的所有建案 並從中return其中最高交易單價
+
 ### Method: `test_can_handle_no_projects_found`
 Description: 測試API 從DB找出建案類型為大樓且管理員部門為資料部的建案 並未找到符合的建案的情形，assert response為empty
 
