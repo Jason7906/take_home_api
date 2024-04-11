@@ -1,5 +1,5 @@
 
-# take_home_api
+# Take Home API
 
 ## Introduction
 This API provides functionality to retrieve projects with the highest prices based on certain criteria.
