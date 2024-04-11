@@ -1,7 +1,6 @@
 
-=======
 # take_home_api
->>>>>>> ea9de753905fba579a8d05b7f74e429481d1f9b7
+
 ## Introduction
 This API provides functionality to retrieve projects with the highest prices based on certain criteria.
 ## Installation
