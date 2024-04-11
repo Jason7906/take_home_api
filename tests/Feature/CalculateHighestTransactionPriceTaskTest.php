@@ -37,7 +37,8 @@ class CalculateHighestTransactionPriceTaskTest extends TestCase
         // 驗證任務執行後是否正確記錄了日誌
         $this->assertLogHas('CalculateHighestTransactionPriceTask executed successfully.');
     }
-
+    
+    
 
     protected function assertLogHas($message)
     {
