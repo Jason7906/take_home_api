@@ -19,17 +19,17 @@ GET/projects: Retrieve projects with highest prices.
 The `ProjectController` 
 
 Method: index
-Description: Retrieves projects with the highest prices based on certain criteria.
-Request Method: GET
-Parameters: None
-Returns: JSON response containing project names and their highest prices.
+Description: Retrieves projects with the highest prices based on certain criteria.  
+Request Method: GET  
+Parameters: None  
+Returns: JSON response containing project names and their highest prices.  
 
 ## 資料表建立 Migration
 你可以在以下路徑找到資料表建立的migration文件：
 
-database/migrations/2024_04_10_050840_create_projects_table.php
-database/migrations/2024_04_10_051051_create_transactions_table.php
-這些migration文件包含了專案資料表和交易資料表的建立指令，你可以透過執行php artisan migrate命令來執行這些migration，自動建立相應的資料表。
+database/migrations/2024_04_10_050840_create_projects_table.php  
+database/migrations/2024_04_10_051051_create_transactions_table.php  
+這些migration文件包含了專案資料表和交易資料表的建立指令，你可以透過執行php artisan migrate命令來執行這些migration，自動建立相應的資料表。  
 
 以下為ER model 
 ![alt text](image.png)
